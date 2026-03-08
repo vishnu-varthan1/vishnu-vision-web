@@ -1,4 +1,5 @@
 import Navbar from "@/components/portfolio/Navbar";
+import ParticleField from "@/components/portfolio/ParticleField";
 import HeroSection from "@/components/portfolio/HeroSection";
 import AboutSection from "@/components/portfolio/AboutSection";
 import SkillsSection from "@/components/portfolio/SkillsSection";
@@ -13,7 +14,8 @@ import Footer from "@/components/portfolio/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
+      <ParticleField />
       <Navbar />
       <HeroSection />
       <AboutSection />
